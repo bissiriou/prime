@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mpd.primempd"
+    },
+    "jhipsterVersion": "6.7.0",
+    "applicationType": "microservice",
+    "baseName": "prime",
+    "packageName": "com.mpd.primempd",
+    "packageFolder": "com/mpd/primempd",
+    "serverPort": "9091",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MGI0MmI4MDg0MzRjMWEwZWIyZTM1OWM4M2MxZjBjNWRjNDgzMzkzZTA4ZjIxNjJjZTExZmJlYmNlOTdjM2I2OGM2MTQ4YjFiOTIwNDNjYmNiMWZhZmYyNmZmZjQzYWZiZjg4YzVlYWRiYjk1YWRjODQzM2RiYTY0OThjNWJlOTQ=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1586708756180,
+    "testFrameworks": ["gatling", "cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
